@@ -167,3 +167,14 @@ stormshield/
 ---
 
 Want to add diagrams or runbook next?
+
+---
+
+## 🚀 Quick Start
+
+```bash
+mvn spring-boot:run
+```
+
+The server exposes `/check-limit` for consumers and simple admin endpoints. This implementation uses an in-memory token bucket for demo purposes.
+
